@@ -10,7 +10,7 @@
         "enums.d.ts"
     ],
     "dependencies": {
-        "core": "file:../core"
+        "core": "*"
     },
     "public": true
 }
