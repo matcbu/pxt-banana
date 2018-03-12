@@ -1,18 +1,16 @@
 {
-    "name": "banana",
-    "version": "0.0.0",
-    "description": "pxt tutorial",
-    "license": "MIT",
-    "dependencies": {
-        "core": "*",
-        "radio": "*"
-    },
+    "name": "tropic",
+    "version": "0.0.1",
+    "description": "A tropical fruit paradise.",
     "files": [
-        "README.md",
-        "main.ts"
+        "tropic.ts",
+        "extension.cpp",
+        "extension.ts",
+        "shims.d.ts",
+        "enums.d.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "public": false
+    "dependencies": {
+        "core": "file:../core"
+    },
+    "public": true
 }
